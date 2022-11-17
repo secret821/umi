@@ -1,3 +1,3 @@
 # umi
 
-umi + mobx 创建的H5项目
+mobx 创建的H5项目
