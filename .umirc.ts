@@ -25,4 +25,29 @@ export default defineConfig({
     { path: "/", component: "@/pages/index" },
     { path: "/doc", component: "@/pages/docs" },
   ],
+
+  proxy: {
+    '/api':{
+       target:'http://api.sciclubs.net/',  // 接口域名
+       changeOrigin:true,
+       pathRewrite: {
+        "^/api": ""
+      }
+     },
+     "/crm": {
+      target: "http://sciclubs.net/", // 目标路径
+      changeOrigin: true,
+      pathRewrite: {
+        "^/crm": ""
+      }
+     },
+     "/tool": {
+      target: "http://tools.sciclubs.com/", // 目标路径
+      changeOrigin: true,
+      pathRewrite: {
+        "^/tool": ""
+      }
+    }
+  }
 });
+

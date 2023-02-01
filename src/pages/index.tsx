@@ -8,8 +8,8 @@ import './style.less'
 export default function HomePage() {
 
   useEffect(() => {
-    console.log('111')
-    getCode()
+    console.log('222')
+    getCode({})
   },[])
   return (
     <div className='homepage'>
@@ -18,7 +18,7 @@ export default function HomePage() {
         <img src={yayJpg} width="388" />
       </p>
       <p>
-        To get started, edit <code>pages/index.tsx</code> and save to reload.
+        To get started <code>pages/index.tsx</code> and save to reload.
       </p>
     </div>
   );

@@ -1,8 +1,7 @@
 import { Link, Outlet } from 'umi';
-// import 'lib-flexible'
+import 'lib-flexible'
 
 import styles from './index.less';
-import HomePage from '@/pages';
 
 export default function Layout() {
   return (
