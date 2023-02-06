@@ -1,6 +1,5 @@
 import axios from "axios";
 const root = process.env.REACT_APP_BASEURL;
-console.log(process.env.REACT_APP_BASEURL,'process.env.REACT_APP_BASEURL')
 
 let all = async function () {
   const funcs = [...arguments];
