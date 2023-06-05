@@ -20,6 +20,8 @@ export default defineConfig({
     }),
   ],
 
+  mock: {},
+
   // 路由配置
   routes: [
     { path: "/", component: "@/pages/index" },

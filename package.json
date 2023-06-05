@@ -14,9 +14,14 @@
     "lint:style": "eslint --fix \"src/**/*.less\" --syntax less"
   },
   "dependencies": {
+    "@alita/plugins": "^3.2.22",
+    "@types/mockjs": "^1.0.7",
+    "@umijs/plugins": "^4.0.70",
+    "antd": "^5.5.2",
     "axios": "^1.1.3",
     "cross-env": "^7.0.3",
     "lib-flexible": "^0.3.2",
+    "mockjs": "^1.1.0",
     "umi": "^4.0.30"
   },
   "devDependencies": {

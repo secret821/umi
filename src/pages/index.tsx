@@ -1,6 +1,6 @@
 import { history } from 'umi';
 import { useEffect } from 'react';
-import { getCode } from "../api/index";
+import { getCode, getMock } from "../api/index";
 import yayJpg from '../assets/yay.jpg';
 
 import './style.less'
@@ -8,8 +8,8 @@ import './style.less'
 export default function HomePage() {
 
   useEffect(() => {
-    console.log('222')
     getCode({})
+    getMock({})
   },[])
   return (
     <div className='homepage'>
